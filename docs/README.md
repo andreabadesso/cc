@@ -22,6 +22,11 @@ Source analysis and architecture documentation for Claude Code's internals.
 | [MEMORY_SYSTEM.md](MEMORY_SYSTEM.md) | Auto-memory extraction, 4 memory types, MEMORY.md index, relevance prefetch, team sync |
 | [COST_TRACKING.md](COST_TRACKING.md) | Pricing tiers, cache economics, token estimation, rate limits, overage detection, per-session persistence |
 | [IDE_BRIDGE.md](IDE_BRIDGE.md) | VS Code/JetBrains bridge: V1 (WebSocket) and V2 (SSE) transports, JWT auth, session management |
+| [COMPACTION.md](COMPACTION.md) | 6 compaction strategies, actual summarization prompts, boundary management, microcompact, cache editing |
+| [AUTH_AND_ENTERPRISE.md](AUTH_AND_ENTERPRISE.md) | OAuth 2.0 PKCE flow, keychain integration, workspace trust, enterprise MDM, policy limits, env var security |
+| [FEATURE_FLAGS.md](FEATURE_FLAGS.md) | Two-layer system: 90 compile-time Bun flags + 65+ runtime GrowthBook flags, latching, conditional prompting |
+| [PLUGIN_EXTENSIBILITY.md](PLUGIN_EXTENSIBILITY.md) | Plugin manifest, custom skills/agents/commands, hook registration, security boundaries, discovery pipeline |
+| [BATCH_WORKFLOWS.md](BATCH_WORKFLOWS.md) | /batch 3-phase orchestration, /simplify 3-agent review, fork cache optimization, progress tracking |
 
 ## Terminal UI
 
