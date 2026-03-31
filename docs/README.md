@@ -8,9 +8,20 @@ Source analysis and architecture documentation for Claude Code's internals.
 |----------|-------------|
 | [OVERVIEW.md](OVERVIEW.md) | High-level overview: tech stack, directory structure, core architecture layers, key flows |
 | [APP_ARCHITECTURE.md](APP_ARCHITECTURE.md) | Application layer: boot sequence, query engine, tool system, permissions, state management, configuration |
+| [STREAMING_STATE_MACHINE.md](STREAMING_STATE_MACHINE.md) | The core streaming + tool execution loop: state transitions, concurrent execution, error recovery, abort handling |
 | [TOOL_PIPELINE.md](TOOL_PIPELINE.md) | Tool type system, assembly pipeline, execution flow, permission integration, deferred tool loading |
 | [SKILLS_SYSTEM.md](SKILLS_SYSTEM.md) | Skill system: bundled, disk-based, and MCP-sourced reusable workflows with tool restrictions |
 | [MCP_INTEGRATION.md](MCP_INTEGRATION.md) | Model Context Protocol: configuration, connections, OAuth, tool/command/resource wrapping |
+
+## Infrastructure
+
+| Document | Description |
+|----------|-------------|
+| [SANDBOX.md](SANDBOX.md) | OS-level command sandboxing: Seatbelt (macOS), bubblewrap+seccomp (Linux), filesystem/network restrictions |
+| [HOOKS.md](HOOKS.md) | 26 hook events, 6 hook types, permission integration, policy enforcement, async execution |
+| [MEMORY_SYSTEM.md](MEMORY_SYSTEM.md) | Auto-memory extraction, 4 memory types, MEMORY.md index, relevance prefetch, team sync |
+| [COST_TRACKING.md](COST_TRACKING.md) | Pricing tiers, cache economics, token estimation, rate limits, overage detection, per-session persistence |
+| [IDE_BRIDGE.md](IDE_BRIDGE.md) | VS Code/JetBrains bridge: V1 (WebSocket) and V2 (SSE) transports, JWT auth, session management |
 
 ## Terminal UI
 
