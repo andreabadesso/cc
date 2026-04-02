@@ -57,6 +57,7 @@ Source analysis and architecture documentation for Claude Code's internals.
 | [prompting/AGENT_PROMPTING.md](prompting/AGENT_PROMPTING.md) | How subagents, teammates, coordinators, and built-in agent types are prompted |
 | [prompting/TOOL_PROMPTING.md](prompting/TOOL_PROMPTING.md) | Tool description generation, conditional prompting, safety protocols, behavioral steering |
 | [prompting/PROMPT_DEFENSE.md](prompting/PROMPT_DEFENSE.md) | 8-layer defense model: injection defenses, rogue agent containment, trust boundaries, content sandboxing |
+| [prompting/CONVERSATION_HISTORY.md](prompting/CONVERSATION_HISTORY.md) | How conversation history is injected into context — message lifecycle, token budgets, what's expensive, practical tips to reduce usage |
 | [prompting/CONTEXT_MANAGEMENT.md](prompting/CONTEXT_MANAGEMENT.md) | Context window management, auto-compaction, tool result budgeting, cache optimization, thinking mode |
 | [prompting/PATTERNS.md](prompting/PATTERNS.md) | 15 reusable prompting patterns and hidden gems worth stealing for your own agent systems |
 

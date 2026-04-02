@@ -10,5 +10,6 @@ Deep analysis of Claude Code's prompting architecture — how it instructs the m
 | [AGENT_PROMPTING.md](AGENT_PROMPTING.md) | How subagents, teammates, coordinators, and built-in agent types are prompted — with exact prompt text |
 | [TOOL_PROMPTING.md](TOOL_PROMPTING.md) | Tool description generation, conditional prompting, safety protocols, and the patterns tools use to steer model behavior |
 | [PROMPT_DEFENSE.md](PROMPT_DEFENSE.md) | Prompt injection defenses, rogue agent containment, trust boundaries, content sandboxing, and the layered security model |
+| [CONVERSATION_HISTORY.md](CONVERSATION_HISTORY.md) | How conversation history is injected into context — message lifecycle, token budgets, what's expensive, and practical tips to reduce usage |
 | [CONTEXT_MANAGEMENT.md](CONTEXT_MANAGEMENT.md) | Context window management, auto-compaction, tool result budgeting, cache breakpoints, thinking mode, and message normalization |
 | [PATTERNS.md](PATTERNS.md) | Reusable prompting patterns and hidden gems — the techniques worth stealing for your own agent systems |
